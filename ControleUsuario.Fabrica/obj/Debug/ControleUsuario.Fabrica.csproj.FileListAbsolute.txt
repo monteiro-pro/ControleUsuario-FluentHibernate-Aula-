@@ -14,3 +14,4 @@ C:\Users\MONTEIRO\Documents\Visual Studio 2015\Projects\ControleUsuario\Controle
 C:\Users\MONTEIRO\Documents\Visual Studio 2015\Projects\ControleUsuario\ControleUsuario.Fabrica\bin\Debug\NHibernate.xml
 C:\Users\MONTEIRO\Documents\Visual Studio 2015\Projects\ControleUsuario\ControleUsuario.Fabrica\obj\Debug\ControleUsuario.Fabrica.dll
 C:\Users\MONTEIRO\Documents\Visual Studio 2015\Projects\ControleUsuario\ControleUsuario.Fabrica\obj\Debug\ControleUsuario.Fabrica.pdb
+C:\Users\MONTEIRO\Documents\Visual Studio 2015\Projects\ControleUsuario\ControleUsuario.Fabrica\obj\Debug\ControleUsuario.Fabrica.csprojResolveAssemblyReference.cache

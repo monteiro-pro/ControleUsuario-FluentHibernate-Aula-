@@ -9,12 +9,6 @@ namespace ControleUsuario.Negocio.Implementacao
 {
     public class UsuarioRepositorio : RepositorioBase<Usuario>
     {
-        Usuario usu = new Usuario
-        {
-            nome = "Mont",
-            email = "teste",
-            senha = "123"
-        };
 
     }
 }

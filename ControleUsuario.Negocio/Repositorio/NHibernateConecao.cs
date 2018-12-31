@@ -22,11 +22,7 @@ namespace ControleUsuario.Negocio.Repositorio
             //Configurar a Conexão
             FluentConfiguration _configuration = Fluently.Configure()
                                                         .Database(
-                                                            MySQLConfiguration.Standard.ConnectionString(x => x.Server
-                                                                                                                ("localhost")
-                                                                                                                .Username("root")
-                                                                                                                .Password("")
-                                                                                                                .Database("bdusuario")))
+                                                            MySQLConfiguration.Standard.ConnectionString("Server=localhost;Port=3306;Database=bdusuario;Username=root;Password=;SslMode=none"))
                                                             .Mappings(
                                                                     c => c.FluentMappings.AddFromAssemblyOf<UsuarioMapa>())
                                                                     .ExposeConfiguration(cfg => new SchemaExport(cfg).Create(true, true));

@@ -8,13 +8,11 @@ using System.Threading.Tasks;
 
 namespace Teste
 {
-    class Program
+    class Teste
     {
         static void Main(string[] args)
         {
             UsuarioRepositorio re = new UsuarioRepositorio();
-
-            PermissaoRepositorio re2 = new PermissaoRepositorio();
 
             List<Permissao> perlist = new List<Permissao>();
 
@@ -35,6 +33,8 @@ namespace Teste
             };
 
             re.Insert(usu);
+
+            Console.ReadKey();
         }
     }
 }
